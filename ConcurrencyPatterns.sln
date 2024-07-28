@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyPatterns", "Conc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationMechanismsLocksMutexesSemaphores", "SynchronizationMechanismsLocksMutexesSemaphores\SynchronizationMechanismsLocksMutexesSemaphores.csproj", "{D40C4222-8C8E-45AB-B26A-B54090D7E462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingRaceConditionsAndDeadlocks", "handlingRaceConditionsAndDeadlocks\HandlingRaceConditionsAndDeadlocks.csproj", "{8EEF904D-2FDE-414D-90EC-AAAE506BD57C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEF904D-2FDE-414D-90EC-AAAE506BD57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEF904D-2FDE-414D-90EC-AAAE506BD57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEF904D-2FDE-414D-90EC-AAAE506BD57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEF904D-2FDE-414D-90EC-AAAE506BD57C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

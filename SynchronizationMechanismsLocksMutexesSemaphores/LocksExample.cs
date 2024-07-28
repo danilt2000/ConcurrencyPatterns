@@ -27,6 +27,9 @@
                         {
                                 Console.WriteLine($"Current index {i}");
 
+                                //Class with atomic operations Interlocked also can be used
+                                //Interlocked.Increment(ref _counter);
+
                                 lock (LockObject)
                                 {
                                         _counter++;

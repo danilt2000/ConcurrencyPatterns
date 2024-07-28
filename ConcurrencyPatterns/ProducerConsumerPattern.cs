@@ -16,6 +16,7 @@ namespace ConcurrencyPatterns
                                         for (int i = 0; i < 20; i++)
                                         {
                                                 buffer.Add(i);
+                                        
                                                 Console.WriteLine($"Produced:{i}");
 
                                                 Thread.Sleep(100);
@@ -30,10 +31,9 @@ namespace ConcurrencyPatterns
                                 foreach (var item in buffer.GetConsumingEnumerable())
                                 {
                                         Console.WriteLine($"Consumed:{item}");
+                                        
                                         Thread.Sleep(200);
                                 }
-
-
                         });
                  
                         await Task.WhenAll(producerTask, consumerTask);
