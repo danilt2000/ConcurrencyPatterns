@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyPatterns", "ConcurrencyPatterns\ConcurrencyPatterns.csproj", "{C21EC378-3491-448E-A3CC-853DD118472F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationMechanismsLocksMutexesSemaphores", "SynchronizationMechanismsLocksMutexesSemaphores\SynchronizationMechanismsLocksMutexesSemaphores.csproj", "{D40C4222-8C8E-45AB-B26A-B54090D7E462}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C21EC378-3491-448E-A3CC-853DD118472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21EC378-3491-448E-A3CC-853DD118472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21EC378-3491-448E-A3CC-853DD118472F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40C4222-8C8E-45AB-B26A-B54090D7E462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
