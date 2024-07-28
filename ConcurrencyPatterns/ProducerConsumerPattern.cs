@@ -24,6 +24,7 @@ namespace ConcurrencyPatterns
                                         buffer.CompleteAdding();
                                 }
                         );
+
                         var consumerTask = Task.Run(() =>
                         {
                                 foreach (var item in buffer.GetConsumingEnumerable())
