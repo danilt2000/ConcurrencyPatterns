@@ -1,0 +1,38 @@
+namespace ConcurrencyPatterns
+{
+    internal class EfficientAsynchronousAlgorithm
+    {
+        public EfficientAsynchronousAlgorithm() { }
+
+
+        public async Task InvokePattern()
+        {
+            List<Task<int>> tasks = new List<Task<int>>();
+
+            // Add tasks to the list
+            for (int i = 0; i < 10; i++)
+            {
+                tasks.Add(ProcessDataAsync(i));
+            }
+
+            // Await all tasks to complete
+            int[] results = await Task.WhenAll(tasks);
+
+            // Process results
+            int sum = 0;
+            foreach (int result in results)
+            {
+                sum += result;
+            }
+
+            Console.WriteLine($"Sum of processed data: {sum}");
+        }
+
+        static async Task<int> ProcessDataAsync(int value)
+        {
+            // Simulate some asynchronous processing
+            await Task.Delay(100); // Simulate I/O-bound operation
+            return value * 2;
+        }
+    }
+}
